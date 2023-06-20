@@ -43,12 +43,6 @@ The keys randomart image is:
 
 ~/ ᐅ vim multipass-ssh-key.pub
 
-~/ ᐅ touch cloud-init.yaml    
-
-~/ ᐅ ls
-
-README.md             cloud-init.yaml       multipass-ssh-key     multipass-ssh-key.pub
-
 ~/ ᐅ vim cloud-init.yaml      
 
 ~/ ᐅ multipass launch -n Ubunto --cloud-init cloud-init.yaml
